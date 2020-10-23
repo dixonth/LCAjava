@@ -77,7 +77,7 @@ public class LCA
         return false; 
     } 
   
-    // Driver code 
+    //Driver code 
     public static void main(String[] args) 
     { 
         LCA tree = new LCA(); 
