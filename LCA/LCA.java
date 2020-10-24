@@ -1,5 +1,10 @@
-import java.util.ArrayList; 
-import java.util.List; 
+// import static org.junit.Assert.assertEquals;
+
+import java.util.ArrayList;
+import java.util.List;
+
+// import org.junit.Test;
+
   
 // A Binary Tree node 
 class Node { 
@@ -95,5 +100,19 @@ public class LCA
         System.out.println("LCA(2, 4): " + tree.findLCA(2,4)); 
       
     } 
+
+//    @Test
+//    public void LCAtest(){
+//        LCA tree = new LCA(); 
+//        tree.root = new Node(1); 
+//        tree.root.left = new Node(2); 
+//        tree.root.right = new Node(3); 
+//        tree.root.left.left = new Node(4); 
+//        tree.root.left.right = new Node(5); 
+//        tree.root.right.left = new Node(6); 
+//        tree.root.right.right = new Node(7); 
+//        
+//        assertEquals(2, tree.findLCA(4, 5));
+//
+//    }
 } 
-// This code is contributed by Sreenivasulu Rayanki.
